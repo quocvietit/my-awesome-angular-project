@@ -24,6 +24,9 @@
    "styles": [
         "node_modules/primeicons/primeicons.css",
         "node_modules/primeng/resources/themes/omega/theme.css",
-        "node_modules/primeng/resources/primeng.min.css",
+        "node_modules/primeng/resources/primeng.min.css"
     ],
 ```
+## Install translate library
+- `npm install @ngx-translate/core --save`
+- `npm install @ngx-translate/http-loader`
