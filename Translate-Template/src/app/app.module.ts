@@ -8,8 +8,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AccordionModule, ButtonModule } from 'primeng/primeng';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import {HttpClient, HttpClientModule} from '@angular/common/http';
-import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { DataService } from './services/data.service';
+import { HttpLoaderFactory } from './services/http-loader-factory.service';
 
 
 @NgModule({
@@ -37,6 +37,3 @@ import { DataService } from './services/data.service';
 })
 export class AppModule { }
 
-export function HttpLoaderFactory(http: HttpClient) {
-  return new TranslateHttpLoader(http);
-}

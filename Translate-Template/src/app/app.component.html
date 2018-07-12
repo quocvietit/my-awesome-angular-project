@@ -1,16 +1,16 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div class="container">
   <div class="row" style="text-align: center">
-    <h3>Translate Template</h3>
+    <h3>{{ 'title' | translate}}</h3>
   </div>
 
   <div class="row">
     <div>
-      <!-- <p-dropdown [options]="languages" [(ngModel)]="language" placeholder="Select a language" optionLabel="name" [showClear]="true"></p-dropdown>
-      <p>Selected language: {{language ? language.name : 'none'}}</p> -->
-      <!-- <p-button label="Change" styleClass="ui-button-success" (onClick)="changeLanguage()"></p-button>
-      <br> -->
-      <h1 >{{'TITLE'| translate}}</h1>
+      <p-dropdown [options]="languages" [(ngModel)]="language" placeholder="Select a language" optionLabel="label"></p-dropdown>
+      <p>{{ 'select' | translate}} : {{language ? language.label : 'none'}}</p>
+      <p-button label="Change" styleClass="ui-button-success" (onClick)="changeLanguage()"></p-button>
+      <br>
+      <h1>{{ 'text' | translate}}</h1>
     </div>
   </div>
 </div>
