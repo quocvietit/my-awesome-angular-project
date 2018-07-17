@@ -1,42 +1,34 @@
-<header>
-  <!-- Navbar -->
-  <nav class="navbar fixed-top navbar-toggleable-md navbar-expand-lg scrolling-navbar double-nav">
-    <div class="container container-header">
-      <div class="wrapper-container header-z">
-        <div class="nav-header">
-          <a href="/home" class="logo">
-            <h1 style="margin: 0">
-              <img src="https://www.kiotviet.vn/wp-content/themes/kiotviet/images/kiotvietLogo.png" align="" alt="logo" width="" height="">
-            </h1>
-          </a>
-        </div>
-      </div>
-      <ul class="nav navbar-nav nav-flex-icons ml-auto">
-        <li class="nav-item">
-          <a class="nav-link">
-            <span class="clearfix d-none d-sm-inline-block">Khách hàng</span>
-          </a>
+<navbar class="navbar fixed-top navbar-expand-lg navbar-white scrolling-navbar navbar-shop">
+  <div class="container">
+    <mdb-navbar-brand>
+      <a href="/home" class="navbar-brand">
+        <img src="https://www.kiotviet.vn/wp-content/themes/kiotviet/images/kiotvietLogo.png" align="" alt="Phần mềm quản lý bán hàng KiotViet"
+          width="" height=""> </a>
+    </mdb-navbar-brand>
+
+    <!-- <div class="collapse main-menu navbar-collapse navbar-right navbar-bt"> -->
+    <ul class="navbar-nav ml-auto">
+      <li class="">
+        <a  mdbWavesEffect>Khách hàng
+          <span class="sr-only">(current)</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a mdbWavesEffect>Dịch vụ</a>
+      </li>
+      <li class="nav-item">
+        <a mdbWavesEffect>Hỗ trợ</a>
+      </li>
+      <li class="nav-item">
+          <a mdbWavesEffect>Hợp tác</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link">
-            <span class="clearfix d-none d-sm-inline-block">Phí dịch vụ</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link">
-            <span class="clearfix d-none d-sm-inline-block">Hỗ trợ</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link">
-            <span class="clearfix d-none d-sm-inline-block">Hợp tác</span>
-          </a>
-        </li>
-        <li class="nav-item dropdown">
-          <button type="button" class="btn btn-success btn-sm">Đăng nhập</button>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <!-- /.Navbar -->
-</header>
+            <a mdbWavesEffect>Liên hệ</a>
+          </li>
+      <li>
+        <button type="button" class="btn btn-success waves-light" mdbWavesEffect>Đăng nhập</button>
+      </li>
+    </ul>
+    <!-- </div> -->
+  </div>
+</navbar>
